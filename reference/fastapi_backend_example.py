@@ -18,7 +18,7 @@ from datetime import datetime
 import logging
 
 # 로컬 모듈 임포트
-from api_schemas import *
+from reference.api_schemas import *
 from stability_client import StabilityClient, StabilityClientError
 
 # 로깅 설정
